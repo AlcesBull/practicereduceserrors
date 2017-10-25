@@ -12,6 +12,8 @@ defmodule Scratch do
   end
 end
 
-#random test numbers
+#pattern matching test
+IO.puts Scratch.convert_to_light_seconds({:miles, 93000000})
 IO.puts Scratch.convert_to_light_seconds({:meters, 100000000})
+
 
