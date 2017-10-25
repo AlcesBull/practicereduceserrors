@@ -13,7 +13,8 @@ defmodule Scratch do
 end
 
 #pattern matching test
-IO.puts Scratch.convert_to_light_seconds({:miles, 93000000})
-IO.puts Scratch.convert_to_light_seconds({:meters, 100000000})
+#IO.puts Scratch.convert_to_light_seconds({:miles, 93000000})
+#IO.puts Scratch.convert_to_light_seconds({:meters, 100000000})
 
-
+#Using the Pipe (v elegant)
+IO.puts {:miles, 93000000} |> Scratch.convert_to_light_seconds
