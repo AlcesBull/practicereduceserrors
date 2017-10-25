@@ -11,3 +11,7 @@ defmodule Scratch do
     meters * 3.335638620368e-9
   end
 end
+
+#random test numbers
+IO.puts Scratch.convert_to_light_seconds({:meters, 100000000})
+
