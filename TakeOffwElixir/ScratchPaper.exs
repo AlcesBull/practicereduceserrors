@@ -17,4 +17,12 @@ end
 #IO.puts Scratch.convert_to_light_seconds({:meters, 100000000})
 
 #Using the Pipe (v elegant)
-IO.puts {:miles, 93000000} |> Scratch.convert_to_light_seconds
+#IO.puts {:miles, 93000000} |> Scratch.convert_to_light_seconds
+
+#def round(val) when is_integer(val), do: trunc(val)
+
+#Multiple pipes to Round
+#IO.puts {:miles, 93000000}
+#            |> Scratch.convert_to_light_seconds
+#            |> round
+#NOTE: Didn't quite figure this out.
